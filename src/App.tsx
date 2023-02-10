@@ -107,7 +107,7 @@ function App() {
       <header className="text-center text-white font-normal text-2xl flex gap-2 flex-col justify-center items-center">
         <img src={appIcon} alt="app icon" className="inline-block sm:w-20 sm:h-20 h-16 rounded-xl" />
         <h6>
-        Cook AI 
+          AI Recipes 
         </h6>
       </header>
       <Box
