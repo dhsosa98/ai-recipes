@@ -12,6 +12,13 @@ AI Recipes uses the cohere API to generate recipes. The cohere API is a natural 
 
 To use AI Recipes, simply select the ingredients list and click "Generate Recipe!" button. The generated recipe will appear in the text box below.
 
+## How to configure it?
+
+To configure AI Recipes, you will need to create a cohere API key. You can create a cohere API key by visiting https://cohere.ai and clicking "Get Started". Once you have created a cohere API key, you can configure the application by creating a file called ".env" in the root directory of the project. The ".env" file should contain the following line:
+
+```
+VITE_COHERE_API_KEY=<YOUR_COHERE_API_KEY>
+``` 
 ## How do I run it locally?
 
 To run AI Recipes locally, you will need to install the following dependencies:
