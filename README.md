@@ -26,3 +26,8 @@ npm install
 npm start
 ```
 Once the application is running, you can access it at http://localhost:3000.
+
+
+## Live Demo
+
+You can view a live demo of AI Recipes at https://dhsosa98.github.io/ai-recipes/
