@@ -150,25 +150,26 @@ function App() {
           {!recipe ? "Generate Recipe!" : "Generate another one!"}
           </Button>
         </Box>
-      </Box>
-      {recipe && <Card sx={{
-        padding: '1rem',
-        backgroundColor: '#1e2127',
-        color: 'white',
-      }}>
-        <TextField
-          value={recipe}
-          multiline
-          minRows={4}
-          inputProps={{ className: "!text-white !border-none !outline-none sm:!text-xl" }}
-          sx={{
-            width: '100%',
-            border: 'none',
-            backgroundColor: '#1e2127',
-            color: 'white',
-          }}
-        />
-      </Card>}
+          {recipe && <Card sx={{
+          padding: '1rem',
+          backgroundColor: '#1e2127',
+          color: 'white',
+          width: '100%',
+        }}>
+          <TextField
+            value={recipe}
+            multiline
+            minRows={4}
+            inputProps={{ className: "!text-white !border-none !outline-none sm:!text-xl" }}
+            sx={{
+              width: '100%',
+              border: 'none',
+              backgroundColor: '#1e2127',
+              color: 'white',
+            }}
+          />
+        </Card>}
+      </Box>  
     </Container>
   )
 }
