@@ -18,6 +18,7 @@ const ingredients = [
   'milk',
   'cheese',
   'butter',
+  "sweet pepper",
   'oil',
   'salt',
   'pepper',
@@ -100,7 +101,7 @@ function App() {
       flexDirection: 'column',
       backgroundColor: "#282c34",
       minHeight: '100vh',
-      gap: '3rem',
+      gap: '2rem',
       padding: '1rem',
       alignItems: 'center',
     }} maxWidth="md">
@@ -116,8 +117,9 @@ function App() {
       sx={{
         display: 'flex',
         flexDirection: 'column',
-        gap: '2rem',
+        gap: '1rem',
       }} maxWidth="sm">
+        <h6 className='text-white'>Select one or more ingredients!</h6>
         <Box sx={{
           display: 'flex',
           flexDirection: 'row',
